@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Times_New_Roman_ps_boldmt';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Times_New_Roman_ps_boldmt.eot');
+    src: url('../fonts/Times_New_Roman_ps_boldmt.woff') format('woff'),
+    url('../fonts/Times_New_Roman_ps_boldmt.ttf') format('truetype'),
+    url('../fonts/Times_New_Roman_ps_boldmt.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Opensans';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Opensans.eot');
+    src: url('../fonts/Opensans.woff') format('woff'),
+    url('../fonts/Opensans.ttf') format('truetype'),
+    url('../fonts/Opensans.otf') format('otf');
+}
+
+body {
+    font-family: 'Opensans', sans-serif;
+    font-size: 15px;
+    color: #14141d;
+}
+
+.container {
+    width: 100%;
+    //min-width: 320px;
+    //max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
