@@ -207,6 +207,16 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.38px;
+  text-align: left;
+
+  &__name {
+    width: 68%;
+  }
+
+  &__number {
+    width: 32%;
+    white-space: nowrap;
+  }
 }
 
 
