@@ -178,13 +178,24 @@
 
 .productCartSummaryDetailsTableItem {
   display: flex;
-  justify-content: space-between;
+  //position: relative;
   color: #ffdeea;
   letter-spacing: 0.38px;
   margin-bottom: 8px;
 
   &:last-child {
     margin-bottom: 0;
+  }
+
+  &__name {
+    width: 70%;
+    text-align: left;
+  }
+
+  &__number {
+    width: 30%;
+    text-align: left;
+    white-space: nowrap;
   }
 }
 

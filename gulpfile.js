@@ -13,6 +13,8 @@ const cssmin = require('gulp-cssmin');
 const autoprefixer = require('gulp-autoprefixer');
 const gcmq = require('gulp-group-css-media-queries');
 
+const sourcemaps = require('gulp-sourcemaps');
+
 gulp.task('clean', () =>
  	gulp.src('./dist', {
       read: false
